@@ -42,13 +42,18 @@ roslaunch jackal_gazebo spawn_jackal.launch config:=cam_laser
 roslaunch jackal_navigation odom_navigation_demo.launch
 ```
 
+```bash
+rosrun rviz rviz -d ~/Jackal_cam_lasers/rviz/holo.rviz
+```
+
+## Teleop navigation
+
+
 ## Waypoint navigation
 ```bash
 roslaunch jackal_navigation amcl_demo.launch
 ```
-```bash
-rviz rviz
-```
+
 
 
 
