@@ -40,7 +40,7 @@ git clone https://github.com/oscell/Jackal_cam_lasers.git
 Go to workspace
 
 ```bash
-cd SymbioticRobots/jackal_ws
+cd Jackal_cam_lasers/jackal_ws
 ```
 
 Initiate the workspace:
