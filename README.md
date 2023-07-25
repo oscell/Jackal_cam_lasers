@@ -40,7 +40,7 @@ git clone https://github.com/oscell/Jackal_cam_lasers.git
 Go to workspace
 
 ```bash
-cd Jackal_cam_lasers/
+cd ~/Jackal_cam_lasers/
 ```
 
 Initiate the workspace:
@@ -52,12 +52,12 @@ catkin_make
 ## Launch simulation
 
 ```bash
-source devel/setup.bash
+source ~/Jackal_cam_lasers/devel/setup.bash
 roslaunch aws_robomaker_small_warehouse_world view_small_warehouse.launch
 ```
 
 ```bash
-source devel/setup.bash
+source ~/Jackal_cam_lasers/devel/setup.bash
 roslaunch jackal_gazebo spawn_jackal.launch config:=cam_laser
 ```
 
