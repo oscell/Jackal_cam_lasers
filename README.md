@@ -61,6 +61,10 @@ catkin_make
 ## Launch simulation
 
 ```bash
+cd ~/Jackal_cam_lasers/
+```
+
+```bash
 source ~/Jackal_cam_lasers/devel/setup.bash
 roslaunch aws_robomaker_small_warehouse_world view_small_warehouse.launch
 ```
