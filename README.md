@@ -1,8 +1,14 @@
 # Jackal_cam_laser
 
+# RVIZ and Gazebo 
+
+<div style="display:flex;">
+
 ![RVIZ](assets/RVIZ_IMAGE.png)
 
 ![GAZEBO](assets/GAZEBO_IMAGE.png)
+
+</div>
 
 ### Requirements
 
@@ -10,6 +16,8 @@
 - [ROS melodic](https://wiki.ros.org/melodic/Installation/Ubuntu) 
 
 > Note you might want to source your workspace from `.bashrc`
+
+
 
 ```bash
 
