@@ -50,13 +50,10 @@ rosrun rviz rviz -d ~/Jackal_cam_lasers/rviz/holo.rviz
 
 
 ## Waypoint navigation
+
 ```bash
 roslaunch jackal_navigation amcl_demo.launch
 ```
-
-
-
-
 
 ```bash
 ifconfig
