@@ -15,11 +15,6 @@ source ~/.bashrc
 ### Install jackal packages
 
 ```bash
-source ~/Desktop/SymbioticRobots/Jackal_ws/devel/setup.bash
-rosrun utils base_link_listener.py
-```
-
-```bash
 sudo apt-get install ros-melodic-jackal-simulator ros-melodic-jackal-desktop ros-melodic-jackal-navigation -y
 ```
 
