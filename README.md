@@ -40,7 +40,8 @@ roslaunch jackal_gazebo spawn_jackal.launch config:=cam_laser
 
 ```bash
 rviz rviz
-=======
+```
+```bash
 roslaunch jackal_navigation amcl_demo.launch
 ```
 
