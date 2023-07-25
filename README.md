@@ -64,28 +64,30 @@ catkin_make
 cd ~/Jackal_cam_lasers/
 ```
 
-**Terminal 1:**
+**Terminal 1: Launch World**
 
 ```bash
 source ~/Jackal_cam_lasers/devel/setup.bash
 roslaunch aws_robomaker_small_warehouse_world view_small_warehouse.launch
 ```
 
-**Terminal 2:**
+**Terminal 2: Launch Jackal**
 ```bash
 source ~/Jackal_cam_lasers/devel/setup.bash
 roslaunch jackal_gazebo spawn_jackal.launch config:=cam_laser
 ```
 
-**Terminal 3:**
+**Terminal 3: launch SLAM**
 ```bash
 roslaunch jackal_navigation gmapping_demo.launch
 ```
 
-**Terminal 4:**
+**Terminal 4: Rviz**
 ```bash
 rosrun rviz rviz -d ~/Jackal_cam_lasers/rviz/holo.rviz
 ```
+
+**Terminal 5: ROS TCP connection**
 
 ## Teleop navigation
 
