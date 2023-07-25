@@ -95,7 +95,7 @@ ifconfig
 
 ```bash
 source ~/Jackal_cam_laser/devel/setup.bash
-roslaunch ros_tcp_endpoint endpoint.launch tcp_ip:=192.168.86.39 tcp_port:=10000
+roslaunch ros_tcp_endpoint endpoint.launch tcp_ip:=172.21.131.199 tcp_port:=10000
 ```
 
 
