@@ -64,20 +64,25 @@ catkin_make
 cd ~/Jackal_cam_lasers/
 ```
 
+**Terminal 1:**
+
 ```bash
 source ~/Jackal_cam_lasers/devel/setup.bash
 roslaunch aws_robomaker_small_warehouse_world view_small_warehouse.launch
 ```
 
+**Terminal 2:**
 ```bash
 source ~/Jackal_cam_lasers/devel/setup.bash
 roslaunch jackal_gazebo spawn_jackal.launch config:=cam_laser
 ```
 
+**Terminal 3:**
 ```bash
 roslaunch jackal_navigation odom_navigation_demo.launch
 ```
 
+**Terminal 4:**
 ```bash
 rosrun rviz rviz -d ~/Jackal_cam_lasers/rviz/holo.rviz
 ```
