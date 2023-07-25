@@ -1,7 +1,5 @@
 # Jackal_cam_laser
 
-# RVIZ and Gazebo 
-
 | RVIZ | GAZEBO |
 |:-:|:-:|
 | <img src="assets/RVIZ_IMAGE.png" width="400"> | <img src="assets/GAZEBO_IMAGE.png" width="400"> |
