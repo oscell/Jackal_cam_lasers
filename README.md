@@ -13,9 +13,20 @@ source ~/.bashrc
 ```
 
 ### Install jackal packages
+
 ```bash
 source ~/Desktop/SymbioticRobots/Jackal_ws/devel/setup.bash
 rosrun utils base_link_listener.py
+```
+
+```bash
+sudo apt-get install ros-melodic-jackal-simulator ros-melodic-jackal-desktop ros-melodic-jackal-navigation -y
+```
+
+### Install Realsense packages
+
+```bash
+sudo apt-get install ros-melodic-realsense2-camera
 ```
 
 ## Prepare the workspace
@@ -30,8 +41,6 @@ Clone:
 ```bash
 git clone https://github.com/oscell/Jackal_cam_lasers.git
 ```
-
-
 
 Go to workspace
 
@@ -73,6 +82,7 @@ rosrun rviz rviz -d ~/Jackal_cam_lasers/rviz/holo.rviz
 ```bash
 roslaunch jackal_navigation amcl_demo.launch
 ```
+
 
 ```bash
 ifconfig
