@@ -1,18 +1,37 @@
 # Jackal_cam_laser
+### Requirements
 
-## Prepare the workspace
+- [Ubuntu 18.04](https://releases.ubuntu.com/18.04/) or its [wsl](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview)
+- [ROS melodic](https://wiki.ros.org/melodic/Installation/Ubuntu) 
 
-Clone: 
+> Note you might want to source your workspace from `.bashrc`
 
 ```bash
-git clone https://github.com/oscell/SymbioticRobots.git
+
+echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
 ```
 
+### Install jackal packages
+```bash
+source ~/Desktop/SymbioticRobots/Jackal_ws/devel/setup.bash
+rosrun utils base_link_listener.py
+```
+
+## Prepare the workspace
 Open the subsystem:
 
 ```bash
 ubuntu1804
 ```
+
+Clone: 
+
+```bash
+git clone https://github.com/oscell/Jackal_cam_lasers.git
+```
+
+
 
 Go to workspace
 
