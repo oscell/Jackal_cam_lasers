@@ -39,15 +39,19 @@ roslaunch jackal_gazebo spawn_jackal.launch config:=cam_laser
 ```
 
 ```bash
-rviz rviz
+roslaunch jackal_navigation odom_navigation_demo.launch
 ```
+
+## Waypoint navigation
 ```bash
 roslaunch jackal_navigation amcl_demo.launch
 ```
-
 ```bash
-roslaunch jackal_navigation odom_navigation_demo.launch
+rviz rviz
 ```
+
+
+
 
 ```bash
 ifconfig
