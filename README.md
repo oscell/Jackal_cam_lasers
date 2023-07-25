@@ -4,21 +4,12 @@
 
 # RVIZ and Gazebo
 
-<div style="display:flex;">
+## RVIZ
+<img src="assets/RVIZ_IMAGE.png" width="400">
 
-<div style="flex:1;">
+## GAZEBO
+<img src="assets/GAZEBO_IMAGE.png" width="400">
 
-![RVIZ](assets/RVIZ_IMAGE.png){: style="width:200px"} 
-
-</div>
-
-<div style="flex:1;">
-
-![GAZEBO](assets/GAZEBO_IMAGE.png){: style="width:200px"}
-
-</div>
-
-</div>
 
 ### Requirements
 
