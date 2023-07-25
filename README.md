@@ -2,14 +2,9 @@
 
 # RVIZ and Gazebo 
 
-<div style="display: flex; justify-content: space-around;">
-  <div>
-    <img src="assets/RVIZ_IMAGE.png" width="100">
-  </div>
-  <div>
-    <img src="assets/GAZEBO_IMAGE.png" width="100">
-  </div>
-</div>
+| RVIZ | GAZEBO |
+|:-:|:-:|
+| <img src="assets/RVIZ_IMAGE.png" width="400"> | <img src="assets/GAZEBO_IMAGE.png" width="400"> |
 
 
 
