@@ -89,6 +89,16 @@ rosrun rviz rviz -d ~/Jackal_cam_lasers/rviz/holo.rviz
 
 **Terminal 5: ROS TCP connection**
 
+```bash
+ifconfig
+```
+
+```bash
+source ~/Jackal_cam_laser/devel/setup.bash
+roslaunch ros_tcp_endpoint endpoint.launch tcp_ip:=192.168.86.39 tcp_port:=10000
+```
+
+
 ## Teleop navigation
 
 
