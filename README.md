@@ -79,7 +79,7 @@ roslaunch jackal_gazebo spawn_jackal.launch config:=cam_laser
 
 **Terminal 3:**
 ```bash
-roslaunch jackal_navigation odom_navigation_demo.launch
+roslaunch jackal_navigation gmapping_demo.launch
 ```
 
 **Terminal 4:**
