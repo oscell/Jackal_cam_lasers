@@ -113,7 +113,7 @@ roslaunch jackal_navigation amcl_demo.launch
 ## Saven map
 
 ```bash
-rosrun map_r map_saver -f factory_map
+rosrun map_server map_saver -f factory_map
 ```
 
 ```bash
