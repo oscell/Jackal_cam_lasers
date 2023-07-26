@@ -110,6 +110,11 @@ roslaunch ros_tcp_endpoint endpoint.launch tcp_ip:=172.21.131.199 tcp_port:=1000
 roslaunch jackal_navigation amcl_demo.launch
 ```
 
+## Saven map
+
+```bash
+rosrun map_r map_saver -f factory_map
+```
 
 ```bash
 ifconfig
