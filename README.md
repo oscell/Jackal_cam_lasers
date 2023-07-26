@@ -34,11 +34,7 @@ sudo apt-get install ros-melodic-realsense2-camera
 ```
 
 ## Prepare the workspace
-Open the subsystem:
 
-```bash
-ubuntu1804
-```
 
 Clone: 
 
@@ -59,6 +55,12 @@ catkin_init_workspace src/
 catkin_make
 ```
 ## Launch simulation
+
+Open the subsystem:
+
+```bash
+ubuntu1804
+```
 
 ```bash
 cd ~/Jackal_cam_lasers/
