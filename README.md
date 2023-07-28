@@ -39,7 +39,7 @@ sudo apt-get install ros-$ROS_DISTRO-realsense2-camera ros-$ROS_DISTRO-realsense
 Clone: 
 
 ```bash
-git clone https://github.com/oscell/Jackal_cam_lasers.git
+git clone --recurse-submodules https://github.com/oscell/Jackal_cam_lasers.git
 ```
 
 Go to workspace
@@ -96,7 +96,7 @@ ifconfig
 ```
 
 ```bash
-source ~/Jackal_cam_laser/devel/setup.bash
+source ~/Jackal_cam_lasers/devel/setup.bash
 roslaunch ros_tcp_endpoint endpoint.launch tcp_ip:=172.21.131.199 tcp_port:=10000
 ```
 
