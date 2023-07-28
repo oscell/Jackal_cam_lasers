@@ -30,7 +30,7 @@ sudo apt-get install ros-melodic-jackal-simulator ros-melodic-jackal-desktop ros
 ### Install Realsense packages
 
 ```bash
-sudo apt-get install ros-melodic-realsense2-camera
+sudo apt-get install ros-$ROS_DISTRO-realsense2-camera ros-$ROS_DISTRO-realsense2-description
 ```
 
 ## Prepare the workspace
