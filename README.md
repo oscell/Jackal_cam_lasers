@@ -39,7 +39,7 @@ sudo apt-get install ros-$ROS_DISTRO-realsense2-camera ros-$ROS_DISTRO-realsense
 Clone: 
 
 ```bash
-git clone https://github.com/oscell/Jackal_cam_lasers.git
+git clone --recurse-submodules https://github.com/oscell/Jackal_cam_lasers.git
 ```
 
 Go to workspace
